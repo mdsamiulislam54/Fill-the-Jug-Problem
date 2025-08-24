@@ -1,13 +1,14 @@
-import { useState } from 'react'
+
 
 import './App.css'
+import FillingWater from './components/FillingWater'
+import Jug from './components/Jug'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
-   <div className='text-3xl font-bold underline'>
-    hello world
+   <div className=''>
+     <FillingWater/>
    </div>
   )
 }

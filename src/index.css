@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+
+.wave{
+    animation: wave 2s infinite linear;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+
+
+
+@keyframes wave {
+  0% {
+   transform: translateX(-200px);
+   transform: translateY(-2px);
+   transform: rotate(1deg);
+   
+   
+  }
+    50% {
+     transform: translateX(200px);
+     transform: translateY(2px);
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: translateX(-200px);
+        transform: translateY(-2px);
+        transform: rotate(1deg);
+        }
+
+
+} 
