@@ -1,12 +1,25 @@
-# React + Vite
+# Fill the Jug 🏺
+You will often find a problem like this asked to you by the interviewr. Under the hood, solution of these problems are built upon the simple fundamental knowledge of React. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Let's understand the `Fill the Jug` problem.
 
-Currently, two official plugins are available:
+## The Problem Statement
+Achieve the followings with a ReactJS project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create a Jug(mug or container) that can hold water in it. Create two buttons to fill and empty the water from the jug.
+- Everytime you fill or empty the water, it should show the % of the water filled in the jug.
+- Once the water level reaches 100%, you shouldn't be allowed to fill more water to the jug. Do not disable the fill button in this case.
+- Once the water level reaches 0%, you shouldn't be allowed to empty more water from the jug. Do not disable the empty button in this case.
+- Everytime you fill and empty water, a basic wave animation should be added to the water. The animation should be stopped after 3 seconds and start again next time when you fill and empty the water.
 
-## Expanding the ESLint configuration
+## Expectations
+- Clean code
+- No unused state
+- No unnecessary effects
+- No unused imports
+- The aesthetics of the jug, water, and button is not important. However, it is desirable.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Solution
+Here is the full length video explains the solution:
+
+[![Effectree](./src/assets/fill-the-jug.png)]

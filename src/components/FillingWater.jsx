@@ -4,7 +4,7 @@ import Jug from './Jug'
 import { FaTint, FaRegTrashAlt } from "react-icons/fa";
 
 const FillingWater = () => {
-    const [isFilling, setIsFilling] = useState(30);
+    const [isFilling, setIsFilling] = useState(0);
 
     const handleFillWater = () => {
         console.log("Filling water...");
